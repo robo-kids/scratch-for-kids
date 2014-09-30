@@ -1,0 +1,19 @@
+:source: https://github.com/sobkowiak/scratch-for-kids/blob/master
+:license: {source}/LICENSE
+
+image:{source}/slideshow/images/428px-Scratch_Logo.svg.png[width="35%"]
+
+= Scratch for Kids (RoboCap Workshop)
+
+
+
+== Copyright and Licensing
+
+Copyright (C) 2014-2014 Krzysztof Sobkowiak +
+Free use of this software is granted under the terms of the Apache License.
+
+See the {license}[LICENSE] file for details.
+
+== Authors
+
+*The Scratch Workshop* was prepared by https://github.com/sobkowiak[Krzysztof Sobkowiak]
