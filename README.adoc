@@ -17,4 +17,5 @@ See the {license}[LICENSE] file for details.
 == Authors
 
 *Scratch for Kids* was prepared by: 
-- https://github.com/sobkowiak[Krzysztof Sobkowiak]
+
+* https://github.com/sobkowiak[Krzysztof Sobkowiak]
