@@ -7,7 +7,7 @@ image:{source}/slideshow/images/428px-Scratch_Logo.svg.png[width="35%"]
 
 This repository contains the Scratch for Kids Workshop materials.
 
-We are providing it so anybody, any group in their neighbor, city, region and country can teach (Java) software programming to children in a fun way.
+We are providing it so anybody, any group in their neighbor, city, region and country can teach software programming to children in a fun way.
 
 == Copyright and Licensing
 
