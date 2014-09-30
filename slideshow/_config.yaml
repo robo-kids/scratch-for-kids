@@ -1,0 +1,68 @@
+#
+# Common options
+#
+source: slideshow
+destination: slideshow/generated # or . or ~/Hyla or generated_content
+# end common options
+
+#
+# Styles
+# Supported :  liberation, asciidoctor, colony, foundation, foundation-lime, foundation-potion, github, golo, iconic, maker, readthedocs, riak, rocket-panda, rubygems
+#
+style: liberation
+
+#
+# Asciidoctor and attributes options
+#
+backend: revealjs
+attributes:
+   source-highlighter: highlightjs
+   highlightjs-theme: zenburn
+   linkcss!: true
+   data-uri: true
+   stylesdir: slideshow/styles
+   footer_copyright: Copyright ©2014  Krzysztof Sobkowiak # Co(Un)mment this line and add Copyright Text when required
+   # header_image_path: # Co(Un)mment this line and add image path location when required
+   # nofooter: true # Co(Un)mment this line when you don't want to see the footer - black line
+   # noheader: true # Co(Un)mment this line when you don't want to see the header section
+   revealjs_theme: robocap # theme to be used default, ...
+   revealjs_transition: 'default'
+   # revealjs_customtheme: revealjs/css/theme/night.css
+   # showscript: true # Co(Un)mment this line when you want to display scripts for instructors
+# end asciidoctor attributes
+
+#
+# Hyla options
+#
+
+# New/Create command
+artefact_type: revealjs
+type: slideshow
+# end new/create command
+
+#
+# Generate command
+#
+rendering: adoc2html           # Render asciidoc, asciidoctor files to HTML using backend HTML5, Revealjs or Deckjs
+# rendering: index2html        # Render an asciidoc file with extension .txt which is an index of files (include::) a HTML file (= sum of the included files)
+# rendering: html2pdf          # Generate pdf from a HTML file
+# rendering: toc2adoc          # Using an asciidoc file which is a Table Of Content a collection of directories (title level 1) and files (title level 2, 3)
+
+# end generate command
+
+#
+# Serve command
+#
+port: 4000 # HTTP Local port number
+host: localhost # Your local machine http://localhost
+baseurl: /hyla/ # Used to map destination directory with base url to access content --> http://localhost:4000/hyla/
+
+#
+# PDF options
+#
+# file: file_name.html # If empty, then the content of the source directory will be used
+# cover_path: # Co(Un)mment this line to use it and Path to the HTML file containing the cover page
+# header_html_path: # Co(Un)mment this line to use it and add Path to the HTML file containing header/banner
+# footer_text:  # Co(Un)mment this line to use it and add Copyright Text
+
+# end hyla options

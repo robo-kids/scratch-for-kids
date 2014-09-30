@@ -1,0 +1,29 @@
+:hyla: https://github.com/cmoulliard/hyla
+
+= Instructions
+
+== Generate slideshow and hands-on-labs
+
+=== Prerequisites
+
+- https://www.ruby-lang.org/en/[Ruby] 1.9.3-p484
+- http://guides.rubygems.org/[RubyGems] to install Ruby Applications
+
+=== Install Hyla
+
+You need {hyla}[Hyla] to generate the slideshow and hands-on-lab from the asciidoc files. 
+
+The latest source code is located in the {hyla}[Hyla git repository] on GitHub. Hyla can be installed via the +gem+ command, bundler.
+
+Use `gem install` command to deploy Hyla :
+
+    $ gem install hyla -y
+    
+
+NOTE :  The option `-y` will tell to rubyGems to deploy the gem but also the dependencies required.
+
+For detailed instructions how to install Hyla please refer this {hyla}/blob/master/README.adoc[README] file.
+
+=== Generate the Slideshow
+
+    $ hyla generate -c slideshow/_config.yaml

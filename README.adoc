@@ -3,7 +3,7 @@
 
 image:{source}/slideshow/images/428px-Scratch_Logo.svg.png[width="35%"]
 
-= Scratch for Kids (RoboCap Workshop)
+= Scratch for Kids
 
 
 
@@ -16,4 +16,5 @@ See the {license}[LICENSE] file for details.
 
 == Authors
 
-*The Scratch Workshop* was prepared by https://github.com/sobkowiak[Krzysztof Sobkowiak]
+*Scratch for Kids* was prepared by: 
+- https://github.com/sobkowiak[Krzysztof Sobkowiak]
