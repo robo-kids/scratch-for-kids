@@ -1,4 +1,4 @@
-:source: https://github.com/sobkowiak/scratch-for-kids/blob/master
+:source: https://github.com/robo-kids/scratch-for-kids/blob/master
 :license: {source}/LICENSE
 
 image:{source}/slideshow/images/428px-Scratch_Logo.svg.png[width="35%"]
