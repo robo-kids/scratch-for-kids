@@ -6,7 +6,7 @@
 
 === Prerequisites
 
-- https://www.ruby-lang.org/en/[Ruby] 1.9.3-p484
+- https://www.ruby-lang.org/en/[Ruby]
 - http://guides.rubygems.org/[RubyGems] to install Ruby Applications
 
 === Install Hyla
@@ -15,12 +15,16 @@ You need {hyla}[Hyla] to generate the slideshow and hands-on-lab from the asciid
 
 The latest source code is located in the {hyla}[Hyla git repository] on GitHub. Hyla can be installed via the +gem+ command, bundler.
 
-Use `gem install` command to deploy Hyla :
+Use `gem install` command to install Hyla :
 
     $ gem install hyla -y
-    
 
-NOTE :  The option `-y` will tell to rubyGems to deploy the gem but also the dependencies required.
+The option `-y` will tell to rubyGems to deploy the gem but also the dependencies required.
+
+*Note*: Due to usage of some new, not released yet Hyla features, you should install it from sources. Clone {hyla}[Hyla git repository] locally, move to Hyla directory and execute the following commands:  
+
+   $ gem build hyla.gemspec
+   $ sudo gem install hyla-1.0.x.gem -l
 
 For detailed instructions how to install Hyla please refer this {hyla}/blob/master/README.adoc[README] file.
 
