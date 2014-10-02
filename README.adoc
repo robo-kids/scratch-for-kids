@@ -11,6 +11,7 @@ We are providing it so anybody, any group in their neighbor, city, region and co
 
 == Copyright and Licensing
 
+Copyright (C) 2014-2014 the RoboCap team +
 Free use of this software is granted under the terms of the {license}[Apache License].
 
 == Authors
