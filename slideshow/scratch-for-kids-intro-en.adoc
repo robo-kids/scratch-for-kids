@@ -1,0 +1,56 @@
+:author: Krzysztof Sobkowiak
+:backend: revealjs
+:blog: http://sobkowiak.github.io
+:browser_history: true
+:description: 
+:idprefix:
+:linkattrs:
+// Themes : default, beige, moon, blood, night, serif, simple, sky, solarized
+:revealjs_theme: night
+:highlightjs-theme: zenburn
+:revealjs_display_slide_number: false
+:revealjs_slide_vertical_alignment: false
+:revealjs_history: true
+:imagesdir: images/
+:twitter: ksobkowiak
+
+:scratch_logo: 428px-Scratch_Logo.svg.png
+
+= Introduction to Scratch
+
+// *********** Introduction to Scratch ********
+== *Introduction to*
+[.cover]
+-- 
+[.newline]
+image:Scratchcat_Logo.png[width="20%"]
+[.newline]
+RoboCap
+[.newline]
+//{author} +
++++<small>+++
++++</small>+++
+//[.newline]
++++<small>+++
+Wrocław, 29-11-2014
++++</small>+++ 
+--
+
+// *********** About Scratch ********
+
+== About image:{scratch_logo}[width="25%"]
+
+* Czym jest image:{scratch_logo}[width="15%"]?
+** Scratch jest  *językiem programowania*.
+**  Możemy go użyć do tworzenia własnych interaktywnych historyjek, animacji, gier, muzyki i sztuki.
+
+// *********** About Scratch ********
+
+== About image:{scratch_logo}[width="25%"]
+
+
+
+
+== KONIEC
+
+
